@@ -1,5 +1,6 @@
 # Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code (Findings of EACL 2026)
-<!-- [**📖 Paper**](https://arxiv.org/) -->
+
+[**📖 Paper**](https://arxiv.org/pdf/2502.18851)
 
 ## TL; DR
 We present STONE, a syntax-aware code watermarking method that embeds watermarks only into non-syntax tokens, ensuring reliable detection of AI-generated code while preserving functional correctness. We also introduce STEM, a unified evaluation metric for assessing watermark effectiveness across correctness, detectability, and imperceptibility.
@@ -236,6 +237,20 @@ Combine the obtained correctness, detectability, and imperceptibility scores to 
 ```bash
 cd stone_implementation/evaluation
 stem.py
+```
+
+## 🖊 Citation
+```text
+@misc{kim2026markingcodebreakingit,
+      title={Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code}, 
+      author={Jungin Kim and Shinwoo Park and Yo-Sub Han},
+      year={2026},
+      eprint={2502.18851},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2502.18851}, 
+}
+}
 ```
 
 ## Acknowledgements
