@@ -250,7 +250,6 @@ stem.py
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2502.18851}, 
 }
-}
 ```
 
 ## Acknowledgements
